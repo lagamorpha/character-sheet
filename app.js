@@ -11,3 +11,4 @@ const die = function (sides) {
     return Math.floor(rand * sides + 1);
 }
 console.log(die(10));
+
