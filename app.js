@@ -1,4 +1,13 @@
+// basic random number logic
 let rand = Math.random();
-let die6 = Math.floor(Math.random() * 6 + 1);
 // console.log(rand);
-console.log(die6);
+
+// basic die6 logic
+let die6 = Math.floor(rand * 6 + 1);
+// console.log(die6);
+
+// advanced variable die function
+const die = function (sides) {
+    return Math.floor(rand * sides + 1);
+}
+console.log(die(10));
