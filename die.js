@@ -1,3 +1,6 @@
+// variable declarations
+const rolls = [];
+
 // dice class constructor function
 class Dice {
     constructor(sides) {
@@ -8,5 +11,8 @@ class Dice {
     }
 }
 
-const d6 = new Dice(6);
-console.log(d6.roller(6));
+// const d6 = new Dice(6);
+// console.log(d6.roller(6));
+
+// multi roller
+let dieRoller
